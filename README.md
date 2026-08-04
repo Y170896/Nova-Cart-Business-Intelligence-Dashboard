@@ -29,14 +29,13 @@ This project transforms a raw e-commerce dataset into meaningful business insigh
 ##  Project Workflow
 
 ### 1. Data Collection
-Raw e-commerce dataset containing multiple related tables — [`Nova_Cart_Dataset.xlsx`](Dataset/Nova_Cart_Dataset.xlsx)
+Raw e-commerce dataset containing multiple related tables — [Nova_Cart_Dataset.xlsx](Nova_Cart_Business_Intelligence_Dashboard/Dataset/Nova_Cart_Dataset.xlsx)
 
 ### 2. Excel Analysis
-Initial data exploration, validation, summary analysis, and basic reporting — [`Novacart_Excel_Analysis.xlsx`](Excel%20Analysis/Novacart_Excel_Analysis.xlsx)
+Initial data exploration, validation, summary analysis, and basic reporting — [Novacart_Excel_Analysis.xlsx](Nova_Cart_Business_Intelligence_Dashboard/Excel%20Analysis/Novacart_Excel_Analysis.xlsx)
 
 ### 3. SQL Analysis
-**39+ business SQL queries** were written in [`NovaCart_SQL_Analysis_Queries.sql`](SQL%20Queries/NovaCart_SQL_Analysis_Queries.sql) to answer real business questions, covering:
-
+**39+ business SQL queries** were written in [NovaCart_SQL_Analysis_Queries.sql](Nova_Cart_Business_Intelligence_Dashboard/SQL%20Queries/NovaCart_SQL_Analysis_Queries.sql) to answer real business questions, covering:
 Customer Analysis · Revenue Analysis · Product Analysis · Brand Analysis · Category Analysis · Order Analysis · Return Analysis · Payment Method Analysis · Monthly Sales Trend · Customer Segmentation · Ranking Analysis · Window Functions · Revenue Contribution · Top Customers · Top Products
 
 **Queries - -- Top 3 Products in Each Category
@@ -57,7 +56,7 @@ FROM tbl_orders GROUP BY Customer_ID
 HAVING SUM(Order_Value) > (SELECT AVG(Order_Value) FROM tbl_orders);
 
 ##4. Power BI Development
-Built in [`NovaCart_Business_Intelligence_Dashboard.pbix`](Dashboard/NovaCart_Business_Intelligence_Dashboard%20%281%29.pbix), covering:
+Built in [NovaCart_Business_Intelligence_Dashboard.pbix](Nova_Cart_Business_Intelligence_Dashboard/Dashboard/NovaCart_Business_Intelligence_Dashboard%20%281%29.pbix), covering:
 
 - Data Modeling & Relationship Creation
 - DAX Measures & KPI Cards
@@ -86,7 +85,7 @@ Delivery Performance · Return Analysis · Shipping Fee · Monthly Operations ·
 - Average product rating stood at **3.9/5** across 10 categories, with the top product generating ₹7,689K in revenue
 - Wallet and UPI emerged as the most preferred payment methods, each contributing ₹1.4M in revenue
 
-Full detailed findings are documented in the [Nova Cart Project Report](Report/Nova_Cart%20project%20Report.pdf).
+Full detailed findings are documented in the [Nova Cart Project Report](Nova_Cart_Business_Intelligence_Dashboard/Report/Nova_Cart%20project%20Report.pdf)
 Repository Structure
 
 Nova_Cart_Business_Intelligence_Dashboard
