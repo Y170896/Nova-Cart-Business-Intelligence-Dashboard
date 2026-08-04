@@ -1,5 +1,6 @@
 # Nova-Cart-Business-Intelligence-Dashboard
 ![Sales Dashboard](Nova_Cart_Business_Intelligence_Dashboard/Screenshots/Sales%20Intelligence%20Dashboard.ss.jpeg)
+
 End to end Business Intelligence project using Excel, SQL and Power BI to analyze Sales, Customer, Product and Operational performance through data modeling, SQL analysis, DAX measures and interactive dashboards.
 Project Overview : This project demonstrates an end-to-end Business Intelligence solution built using *Excel, MySQL (SQL), and Power BI*. The objective was to transform raw e-commerce data into meaningful business insights through data cleaning, SQL analysis, data modeling, DAX calculations, and interactive dashboards.
 The project focuses on analyzing Sales, Customers, Products, and Operational Performance to support data-driven business decisions.
