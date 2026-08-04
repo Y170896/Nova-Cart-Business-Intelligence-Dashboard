@@ -65,7 +65,6 @@ Built in [`NovaCart_Business_Intelligence_Dashboard.pbix`](Dashboard/NovaCart_Bu
 - Interactive Dashboards & Business Visualizations
 
 ---
-
 ## Dashboards
 
 ### 1. Sales Intelligence Dashboard
@@ -95,7 +94,7 @@ Full detailed findings are documented in the [`NovaCart Report.pdf`](Report/Nova
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Nova_Cart_Business_Intelligence_Dashboard
@@ -126,7 +125,7 @@ Business Intelligence · Data Analysis · SQL Query Writing · Excel Analytics �
 
 ---
 
-## 👤 Author
+## Author
 
 **Yukti Dang**
 Business Analyst | Data Analyst
