@@ -1,8 +1,5 @@
 # Nova-Cart-Business-Intelligence-Dashboard
 ![Sales Dashboard](Nova_Cart_Business_Intelligence_Dashboard/Screenshots/Sales%20Intelligence%20Dashboard.ss.jpeg)
- ![Customer Dashboard](Screenshots/Customer%20Intelligence%20Dashboard.ss.jpeg) |
-[Product Dashboard](Screenshots/Product%20Performance%20Dashboard.ss.jpeg)
-[Operational Dashboard](Screenshots/Operational%20Performance%20Dashboard.ss.jpeg)
 
 End to end Business Intelligence project using Excel, SQL and Power BI to analyze Sales, Customer, Product and Operational performance through data modeling, SQL analysis, DAX measures and interactive dashboards.
 
