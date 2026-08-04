@@ -86,8 +86,7 @@ Delivery Performance · Return Analysis · Shipping Fee · Monthly Operations ·
 - Average product rating stood at **3.9/5** across 10 categories, with the top product generating ₹7,689K in revenue
 - Wallet and UPI emerged as the most preferred payment methods, each contributing ₹1.4M in revenue
 
-Full detailed findings are documented in the [`NovaCart Report.pdf`](Report/NovaCart%20Report.pdf).
-
+Full detailed findings are documented in the [Nova Cart Project Report](Report/Nova_Cart%20project%20Report.pdf).
 Repository Structure
 
 Nova_Cart_Business_Intelligence_Dashboard
