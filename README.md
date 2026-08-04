@@ -46,25 +46,23 @@ DENSE_RANK() OVER(PARTITION BY Product_Category ORDER BY SUM(Order_Value) DESC) 
 FROM tbl_orders GROUP BY Product_Category, Product_Name)
 SELECT * FROM X WHERE r<=3;
 
--- Cumulative Revenue
+Cumulative Revenue
 SELECT Order_Date,
 SUM(Order_Value) OVER(ORDER BY Order_Date) Cumulative_Revenue
 FROM tbl_orders;
-```
 
--- Customers Spending Above Average
+Customers Spending Above Average
 SELECT Customer_ID, SUM(Order_Value)
 FROM tbl_orders GROUP BY Customer_ID
 HAVING SUM(Order_Value) > (SELECT AVG(Order_Value) FROM tbl_orders);
 
-### 4. Power BI Development
+##4. Power BI Development
 Built in [`NovaCart_Business_Intelligence_Dashboard.pbix`](Dashboard/NovaCart_Business_Intelligence_Dashboard%20%281%29.pbix), covering:
 
 - Data Modeling & Relationship Creation
 - DAX Measures & KPI Cards
 - Interactive Dashboards & Business Visualizations
 
----
 ## Dashboards
 
 ### 1. Sales Intelligence Dashboard
@@ -79,9 +77,7 @@ Product Ratings · Category Performance · Selling Price Analysis · Product Rev
 ### 4. Operational Performance Dashboard
 Delivery Performance · Return Analysis · Shipping Fee · Monthly Operations · Order Status
 
----
-
-## Key Business Insights
+ Key Business Insights
 
 - Generated **₹7.69M in total revenue** from 1,000 orders and 500 customers (AOV: ₹7.68K)
 - Achieved a **66.5% customer retention rate** with 290 repeat customers and an average CLV of ₹17.6K
@@ -92,11 +88,8 @@ Delivery Performance · Return Analysis · Shipping Fee · Monthly Operations ·
 
 Full detailed findings are documented in the [`NovaCart Report.pdf`](Report/NovaCart%20Report.pdf).
 
----
+Repository Structure
 
-## Repository Structure
-
-```
 Nova_Cart_Business_Intelligence_Dashboard
 │
 ├── Dashboard/          → Power BI (.pbix) file
@@ -107,15 +100,12 @@ Nova_Cart_Business_Intelligence_Dashboard
 ├── Screenshots/        → Dashboard preview images
 ├── README.md
 └── LICENSE
-```
 
----
-
-## Skills Demonstrated
+ Skills Demonstrated
 
 Business Intelligence · Data Analysis · SQL Query Writing · Excel Analytics · Power BI Dashboard Development · DAX Measures · Data Modeling · KPI Development · Data Visualization · Business Storytelling
 
-## Future Improvements
+ Future Improvements
 
 - Live Database Integration
 - Power BI Service Deployment
@@ -123,9 +113,7 @@ Business Intelligence · Data Analysis · SQL Query Writing · Excel Analytics �
 - Predictive Sales Analytics
 - Customer Segmentation using Machine Learning
 
----
+ Author
 
-## Author
-
-**Yukti Dang**
+Yukti Dang
 Business Analyst | Data Analyst
