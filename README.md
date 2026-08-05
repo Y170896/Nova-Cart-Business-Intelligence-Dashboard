@@ -1,5 +1,5 @@
 
-# NovaCart — End-to-End Business Intelligence Dashboard
+# NovaCart — End-to-End Business Intelligence Platform
 
 End-to-end Business Intelligence project using **Excel, SQL, and Power BI** to analyze Sales, Customer, Product, and Operational performance through data modeling, SQL analysis, DAX measures, and interactive dashboards.
 
